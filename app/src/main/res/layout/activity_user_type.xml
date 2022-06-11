@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserType">
+
+    <TextView
+        android:id="@+id/txt_choose_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Choose Account Type"
+        android:textColor="@color/border_color"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/choose_account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/choose_account">
+
+        <Button
+            android:id="@+id/btn_new_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="New Account"
+            app:backgroundTint="@color/border_color"/>
+        <Button
+            android:id="@+id/btn_existing_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="Existing Account"
+            app:backgroundTint="@color/border_color"
+            android:layout_marginTop="30sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/choose_type"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btn_new_doctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="Doctor"
+            app:backgroundTint="@color/border_color"/>
+        <Button
+            android:id="@+id/btn_new_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="Patient"
+            app:backgroundTint="@color/border_color"
+            android:layout_marginTop="30sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="190dp"
+        android:text="Back"
+        android:textColor="@color/border_color"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/choose_account"
+        app:layout_constraintStart_toStartOf="@+id/choose_account"
+        app:layout_constraintTop_toBottomOf="@+id/choose_account" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

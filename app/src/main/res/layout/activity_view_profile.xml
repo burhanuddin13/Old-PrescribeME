@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewProfile">
+
+    <TextView
+        android:id="@+id/View_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:textColor="@color/border_color"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewfirstnamell"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="64sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View_header">
+
+        <TextView
+            android:id="@+id/txtfirstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:text="First Name: "
+            android:textColor="@color/border_color"
+            android:textSize="20sp"
+            android:fontFamily="@font/baumans"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/viewfirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:fontFamily="@font/berkshire_swash"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:text="No Value Found"
+            android:textColor="@color/border_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewlastnamell"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewfirstnamell">
+
+        <TextView
+            android:id="@+id/txtlastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:text="Last Name: "
+            android:textSize="20sp"
+            android:fontFamily="@font/baumans"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/viewlastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:text="No Value Found"
+            android:fontFamily="@font/berkshire_swash"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewaadharll"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewlastnamell">
+
+        <TextView
+            android:id="@+id/txtaadhar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:text="Aadhar No: "
+            android:textSize="20sp"
+            android:fontFamily="@font/baumans"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/viewaadhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:text="No Value Found"
+            android:fontFamily="@font/berkshire_swash"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewqualifll"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewaadharll">
+
+        <TextView
+            android:id="@+id/txtqualif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:text="Qualifications: "
+            android:textSize="20sp"
+            android:fontFamily="@font/baumans"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/viewqulaif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:text="No Value Found"
+            android:fontFamily="@font/berkshire_swash"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewregnoll"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewqualifll">
+
+        <TextView
+            android:id="@+id/txtregno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:text="Registration No: "
+            android:textSize="20sp"
+            android:fontFamily="@font/baumans"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/viewregno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:text="No Value Found"
+            android:fontFamily="@font/berkshire_swash"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewclinicll"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewregnoll">
+
+        <TextView
+            android:id="@+id/txtclinic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:text="Clinic/Hospital: "
+            android:textSize="20sp"
+            android:fontFamily="@font/baumans"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/viewclinic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:text="No Value Found"
+            android:fontFamily="@font/berkshire_swash"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Update Profile"
+        app:backgroundTint="@color/border_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/viewclinicll"
+        app:layout_constraintStart_toStartOf="@+id/viewclinicll"
+        app:layout_constraintTop_toTopOf="@+id/viewclinicll" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:background="@drawable/round_button"
+        app:backgroundTint="@color/border_color"
+        android:layout_marginTop="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnupdate"
+        app:layout_constraintStart_toStartOf="@+id/btnupdate"
+        app:layout_constraintTop_toBottomOf="@+id/btnupdate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

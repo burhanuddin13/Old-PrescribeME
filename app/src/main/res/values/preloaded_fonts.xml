@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/allerta</item>
+        <item>@font/baumans</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/cantata_one</item>
+        <item>@font/eb_garamond</item>
+        <item>@font/righteous</item>
+    </array>
+</resources>

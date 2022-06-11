@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.nvest-solutions:html-to-pdf-convertor:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fafe09ca0a8e328ff36f1321059275f9/transformed/jetified-html-to-pdf-convertor-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aaa2f6514383aed33425f5bfec9f9444/transformed/jetified-html-to-pdf-convertor-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b27f1045da0ca763e4dfdab931f8b433/transformed/jetified-html-to-pdf-convertor-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2008bb6ca7b2c9a4a1768f040f03244c/transformed/jetified-html-to-pdf-convertor-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7b63d741a1c871a183b60b841a11960/transformed/jetified-html-to-pdf-convertor-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3077fe5e4c6c2aa87a2776857b754165/transformed/jetified-html-to-pdf-convertor-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3077fe5e4c6c2aa87a2776857b754165/transformed/jetified-html-to-pdf-convertor-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3077fe5e4c6c2aa87a2776857b754165/transformed/jetified-html-to-pdf-convertor-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.nvest-solutions/html-to-pdf-convertor/1.0.0/8906d3e850ce7769384cbc6ee69102b2eeb8df7b/html-to-pdf-convertor-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.nvest-solutions/html-to-pdf-convertor/1.0.0/30530200191a3e49af0a799c98f3d9e452de7682/html-to-pdf-convertor-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable-v24/input_outline.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable-v24/round_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/app_logo_filled.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/app_logo_flat.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/app_logo_round.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/app_logo_trans.xml" value="0.176" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/header.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_back_menu.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_building.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_code.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_complete.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_day.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_describe.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_email.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_facebook.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_feedback.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_google.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_image.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_image_white.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_link.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_medicine.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_mic.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_night.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_numbers.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_pdf.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_person.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_person_white.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_pm_logo_01_flat.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_pm_logo_01_round.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_prescribe.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_privacy.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_qualif.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_security.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_share.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_signout.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_upload.xml" value="0.2625" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_waiting.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/ic_website.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/info.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/menu.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/no_internet.xml" value="0.1865" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/drawable/youtube.xml" value="0.2555" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/font/cantata_one.xml" value="0.2640625" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_about_us.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_confirm_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_email_verification.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_external_link.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_loading_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_model.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_paper1.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_patient_info.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_prescribe.xml" value="0.176" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_privacy_policy.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_update_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_update_signature.xml" value="0.152" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_user_type.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_view_html.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_view_pdf.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_view_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/activity_view_signature.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/layout/mainmenu.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/menu-v26/main_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/mipmap-anydpi-v26/ic_doctor.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/TwoUsers02/app/src/main/res/mipmap-anydpi-v26/ic_doctor_round.xml" value="0.24583333333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

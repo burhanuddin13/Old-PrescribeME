@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MenuHeader"
+        android:text="Main Menu"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/border_color"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/DarkLL"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp">
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="30sp"
+            android:id="@+id/imgDark"
+            android:src="@drawable/ic_night"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDark"
+            android:textSize="20sp"
+            android:textColor="@color/border_color"
+            android:text="@string/LDMode"
+            android:textStyle="bold"
+             
+            android:layout_gravity="center_vertical|center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/LightLL"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp">
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="30sp"
+            android:id="@+id/imgLight"
+            android:src="@drawable/ic_day"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLight"
+            android:textSize="20sp"
+            android:textColor="@color/border_color"
+            android:text="@string/LDMode"
+            android:textStyle="bold"
+             
+            android:layout_gravity="center_vertical|center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/AboutLL"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp">
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="30sp"
+            android:id="@+id/imgAbout"
+            android:src="@drawable/info"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAbout"
+            android:textSize="20sp"
+            android:textColor="@color/border_color"
+            android:text="About"
+            android:textStyle="bold"
+             
+            android:layout_gravity="center_vertical|center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/PrivacyLL"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp">
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="30sp"
+            android:id="@+id/imgPrivacy"
+            android:src="@drawable/ic_privacy"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPrivacy"
+            android:textSize="20sp"
+            android:textColor="@color/border_color"
+            android:text="Privacy Policy"
+            android:textStyle="bold"
+             
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/WebsiteLL"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp">
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="30sp"
+            android:id="@+id/imgWebsite"
+            android:src="@drawable/ic_website"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtWebsite"
+            android:textSize="20sp"
+            android:textColor="@color/border_color"
+            android:text="Website"
+            android:textStyle="bold"
+             
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

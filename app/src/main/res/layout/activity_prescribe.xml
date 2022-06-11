@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="true"
+    tools:context=".Prescribe">
+
+    <TextView
+        android:id="@+id/Update_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prescribe"
+        android:textColor="@color/border_color"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+
+
+    <LinearLayout
+        android:id="@+id/diagpresll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="64sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Update_header">
+
+        <EditText
+            android:id="@+id/DiagPres"
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:drawableLeft="@drawable/ic_describe"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:hint="Diagnosis"
+            android:inputType="textMultiLine"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:textColorHint="@color/border_color" />
+
+        <ImageButton
+            android:id="@+id/mic_diagpres"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/ic_mic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/presmedll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/diagpresll">
+
+        <EditText
+            android:id="@+id/PresMed"
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:drawableLeft="@drawable/ic_medicine"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:hint="Prescription"
+            android:inputType="textPersonName"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:textColorHint="@color/border_color" />
+
+        <ImageButton
+            android:id="@+id/mic_presmed"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/ic_mic" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/PresMoretxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:shadowColor="@color/border_color"
+        android:text="Prescribe Above Sentence?"
+        android:textColor="@color/border_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/presmedll"
+        app:layout_constraintTop_toBottomOf="@id/presmedll" />
+
+    <LinearLayout
+        android:id="@+id/infopresll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="64sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/presmedll">
+
+        <EditText
+            android:id="@+id/InfoPres"
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:drawableLeft="@drawable/ic_describe"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:hint="Additional Information"
+            android:inputType="textMultiLine"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:textColorHint="@color/border_color" />
+
+        <ImageButton
+            android:id="@+id/mic_infopres"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/ic_mic" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_gen_presc_html"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:text="Generate Prescription HTML"
+        app:backgroundTint="@color/border_color"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="64sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infopresll"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewOutputLL"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gen_presc_html">
+
+        <TextView
+            android:id="@+id/slot_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:text="Slot Name: "
+            android:textColor="@color/border_color"
+            android:textSize="16sp"
+            android:fontFamily="@font/baumans"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/slot_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10sp"
+            android:ems="6"
+            android:fontFamily="@font/berkshire_swash"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:text="No Value Found"
+            android:textColor="@color/border_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfile">
+
+    <TextView
+        android:id="@+id/Update_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textColor="@color/border_color"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstnamell"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="64sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Update_header">
+
+
+        <EditText
+            android:id="@+id/userfirstname"
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:hint="Enter Your First Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:textColorHint="@color/border_color"/>
+
+        <ImageButton
+            android:id="@+id/mic_1name"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/ic_mic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastnamell"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstnamell">
+
+        <EditText
+            android:id="@+id/userlastname"
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:hint="Enter Your Last Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:textColorHint="@color/border_color"/>
+
+        <ImageButton
+            android:id="@+id/mic_lname"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/ic_mic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aadharnoll"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastnamell">
+
+        <EditText
+            android:id="@+id/useraadharno"
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:drawableLeft="@drawable/ic_numbers"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:hint="Enter Your Aadhar No"
+            android:inputType="textVisiblePassword"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:textColorHint="@color/border_color"/>
+
+        <ImageButton
+            android:id="@+id/mic_aadhar"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/ic_mic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/qualificationll"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aadharnoll">
+
+
+        <EditText
+            android:id="@+id/userqualification"
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:drawableLeft="@drawable/ic_qualif"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:hint="Enter Your Qualification"
+            android:inputType="text"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:textColorHint="@color/border_color"/>
+
+        <ImageButton
+            android:id="@+id/mic_qualif"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/ic_mic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registrationll"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qualificationll">
+
+        <EditText
+            android:id="@+id/useregistrationno"
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:drawableLeft="@drawable/ic_numbers"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:hint="Enter Your Registration No"
+            android:inputType="text"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:textColorHint="@color/border_color"/>
+
+        <ImageButton
+            android:id="@+id/mic_regno"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/ic_mic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clinicll"
+        android:layout_marginStart="32sp"
+        android:layout_marginLeft="32sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registrationll">
+
+        <EditText
+            android:id="@+id/userclinic"
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:drawableLeft="@drawable/ic_building"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:hint="Enter Clinic, Hospital Visits"
+            android:inputType="textPersonName"
+            android:paddingLeft="20sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:textColor="@color/border_color"
+            android:textColorHint="@color/border_color"/>
+
+        <ImageButton
+            android:id="@+id/mic_clinic"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            app:srcCompat="@drawable/ic_mic" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnupdateprof"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:text="Update Profile"
+        app:backgroundTint="@color/border_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/clinicll"
+        app:layout_constraintStart_toStartOf="@+id/clinicll"
+        app:layout_constraintTop_toBottomOf="@+id/clinicll" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.twousers_02">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Home"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo_flat"
+        android:label="Old Prescribe.ME"
+        android:roundIcon="@drawable/app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TwoUsers02">
+        <activity
+            android:name=".ExternalLink"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPDF"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateSignature"
+            android:exported="false" />
+        <activity
+            android:name=".LoadingScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewHTML"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ConfirmProfile"
+            android:exported="false" />
+        <activity
+            android:name=".PatientInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ViewSignature"
+            android:exported="false" />
+
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Prescribe"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".UserType"
+            android:exported="false" />
+        <activity
+            android:name=".EmailVerification"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
